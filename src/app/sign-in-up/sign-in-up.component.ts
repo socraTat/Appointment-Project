@@ -12,4 +12,13 @@ export class SignInUpComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  logIn(){
+
+  }
+
+  register(){
+    
+  }
+
+
 }
