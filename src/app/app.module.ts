@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactsComponent } from './contacts/contacts.component';
-import { SignInUpComponent } from './sign-in-up/sign-in-up.component';
+
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
@@ -19,7 +19,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     HomepageComponent,
     AboutUsComponent,
     ContactsComponent,
-    SignInUpComponent
+
   ],
   imports: [
     BrowserModule,
