@@ -12,6 +12,8 @@ import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     HomepageComponent,
     AboutUsComponent,
     ContactsComponent,
+    SignUpComponent,
+    SignInComponent,
 
   ],
   imports: [
