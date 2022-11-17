@@ -23,6 +23,7 @@
   padding: 4rem;
   border-radius: 10px;
   position: relative;
+
 }
 
 
@@ -37,7 +38,50 @@
 }
 
 .sign-in-logo,
-.sign-in-header{
+.sign-in-header,
+.forget-pass a{
     text-align: center;
 }
+
+
+.sign-in-form{
+  line-height: 1.5;
+}
+
+.sign-in-items label{
+  display: block;
+
+}
+
+.sign-in-items input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  
+  
+}
+
+.sign-in-form a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;  
+}
+
+
+.button-container{
+  text-align: center;
+}
+
+.button-container button{
+  padding: 7px;
+  padding-left: 25%;
+  padding-right: 25%;
+  border-radius: 7px;
+}
+
+
+
 
