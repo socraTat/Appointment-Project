@@ -22,7 +22,7 @@ nav{
 
 }
 .logo{
-	width: 180px;
+	width: 100px;
 	cursor: pointer;
 }
 
@@ -73,20 +73,125 @@ button:hover span{
 button:hover{
 	background: #A3e2ea;
 }
-
 .content{
 	margin-top: 5%;
 	color: #fff;
 	max-width: 700px;
 }
 .content h1{
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: 800;
-	line-height: 85px;
+	line-height: 80px;
 	margin-bottom: 25px;
 }
 .content p{
 	font-size: 20px;
-	color: black;
+	color: #fff;
 	font-weight: 400;
 }
+.contact-us{
+    width: 500px;
+    background:  #F0FFFF;
+    padding: 50px;
+    margin: 100px 70px;
+    border-radius: 30px;
+    position: absolute;
+    top: 10%;
+    bottom: 8px;
+    right: 14em;
+  }
+  
+  .title h1{
+    color: #535274;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .form,
+  .form-items{
+    width: 100%;
+  }
+  
+  .form-items .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ADD8E6;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  .form-items .input.message{
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+    resize: none;
+  }
+  
+  .btn{
+    background: linear-gradient(to right,#6495ED,#9FE2BF);
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn .fas{
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  .form-items{
+    position: relative;
+  }
+  
+  .form-items .fas{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #000000;
+  }
+  
+  .social-icons{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    width: 200px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-icons div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  
+  .social-icons div .fab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+  }
+  
+  .social-icons div.facebook{
+    background: linear-gradient(to right,#6495ED,#9FE2BF);
+  }
+  
+  .social-icons div.twitter{
+    background: linear-gradient(to right,#6495ED,#9FE2BF);
+  }
+  
+  .social-icons div.google{
+    background: linear-gradient(to right,#6495ED,#9FE2BF);
+  }
