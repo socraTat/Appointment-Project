@@ -16,7 +16,14 @@
 		<div class="section">
 			<div class="box-area">
 				<h2 style="color: #2b2626">Homepage</h2>
+				<ng-container *ngIf="authServ.currentUsers | async as user">
+					<button (click)="signOut()">
+						Sign Out
+					</button>
+				</ng-container>
+				
 			</div>
 		</div>
 	</div>
+
     
