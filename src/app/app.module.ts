@@ -17,6 +17,9 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MainPageComponent } from './main-page/main-page.component';
 import { HotToastModule } from '@ngneat/hot-toast';
+import { GetAppointmentComponent } from './get-appointment/get-appointment.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { MyAppointmentComponent } from './my-appointment/my-appointment.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { HotToastModule } from '@ngneat/hot-toast';
     SignUpComponent,
     SignInComponent,
     MainPageComponent,
+    GetAppointmentComponent,
+    UserProfileComponent,
+    MyAppointmentComponent,
 
   ],
   imports: [
