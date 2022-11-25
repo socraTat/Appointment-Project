@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Auth } from '@angular/fire/auth';
+import { Auth, signInWithEmailAndPassword } from '@angular/fire/auth';
+import { from } from 'rxjs';
 
 
 @Injectable({
@@ -7,5 +8,13 @@ import { Auth } from '@angular/fire/auth';
 })
 export class AuthenticationService {
 
-  constructor(private auth: Auth) { }
+  constructor(private auth: Auth) {}
+
+  signIn(email: string, password: string){
+    return from(signInWithEmailAndPassword(this.auth, email, password)) 
+  }
+
+  signOut(){
+    return from(this.auth.signOut());
+  }
 }

@@ -15,6 +15,8 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MainPageComponent } from './main-page/main-page.component';
+import { HotToastModule } from '@ngneat/hot-toast';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContactsComponent,
     SignUpComponent,
     SignInComponent,
+    MainPageComponent,
 
   ],
   imports: [
@@ -33,7 +36,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
-    provideFirestore(() => getFirestore())
+    provideFirestore(() => getFirestore()),
+    HotToastModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
