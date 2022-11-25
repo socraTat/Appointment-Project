@@ -15,11 +15,23 @@ export class SignInComponent implements OnInit {
 
 
   signInForm = new FormGroup({
-    email: new FormControl(''),
-    password: new FormControl(''),
+    email: new FormControl('',[Validators.required, Validators.email]),
+    password: new FormControl('',Validators.required)
   });
 
   
+
+
+  /*FOR form validation get method*/
+
+  get email(){
+    return this.signInForm.get('email');
+  }
+
+  get password(){
+    return this.signInForm.get('password');
+  }
+
 
   formSubmit(){
    /*ONPROGRESSS*/
