@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "appointment-project-64dbd": {
+      "hosting": {
+        "Appointment-Project": [
+          "appointment-project-64dbd"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "appointment-project-64dbd"
+  }
+}
