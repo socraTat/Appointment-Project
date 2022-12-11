@@ -1,29 +1,62 @@
-<nav>
-	<ul>
-		<li class="logo"><img alt="" src="assets/img/logo.png"></li>
-		<li>
-			<a routerLink="/user-profile"><i class="fa fa-users"></i> User's Profile</a>
-		</li>
-		<li>
-			<a routerLink="/get-appointment"><i class="fa fa-appointment"></i> Get Appointment</a>
-		</li>
-		<li>
-			<a routerLink="/my-appointment"><i class="fa fa-users Appointment"></i> My Appointment</a>
-		</li>
-		</ul>
-	</nav>
-	<div class="wrapper">
-		<div class="section">
-			<div class="box-area">
-				<h2 style="color: #2b2626">Homepage</h2>
-				<ng-container *ngIf="authServ.currentUsers | async as user">
-					<button (click)="signOut()">
-						Sign Out
-					</button>
-				</ng-container>
-				
-			</div>
-		</div>
-	</div>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<div class="container">
+    <div class="sidebar">
+        <ul>
+            <li>
+                <a href="#">
+                    <div class="logo">
+                        <img alt="" src="assets/img/logo.png">
+                    </div>
+                    <div class="title">Clinic Appointment</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-th-large"></i>
+                    <a routerLink="/dashboard"><div class="title">Dashboard</div></a>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-stethoscope"></i>
+                    <a routerLink="/my-appointment"><div class="title">My Appointment</div></a>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-calendar"></i>
+                    <a routerLink="/get-appointment"><div class="title">Get Appointment</div></a>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user-md"></i>
+                    <a routerLink="/doctors"><div class="title">Doctors</div></a>
+                </a>
+            </li>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <li>
+                <a href="#">
+                    <i class="fa fa-sign-out"></i>
+                    <a routerLink="/log-out"><div class="title">Log Out</div></a>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="top-bar">
+            <div class="search">
+                <input type="text" name="search" placeholder="search here">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+        <div class="notif">
+            <i class="fas fa-bell"></i></div>
+            <div class="user">
+                    <img alt="" src="assets/img/mutya.jpg">
+            </div>
+
+        </div>
+    </div>
+</div>
 
     
