@@ -48,7 +48,7 @@ nav ul li a{
 	text-decoration: none;
 	position: relative;
 	cursor: pointer;
-	
+	font-size: 120%;
 }
 nav ul li a::after{
 	content: '';
@@ -73,22 +73,22 @@ button{
 	padding: 15px 0;
 	text-align: center;
 	margin: 20px 10px;
-	border-radius: 0px;
+	border-radius: 10px;
 	font-weight: 900;
 	background: transparent;
 	color: #0d0e0e;
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
-	border: 2px solid rgb(111, 235, 235); 
+	border: 2px solid #000; 
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 button:hover{
-	background: rgb(111, 235, 235);
+	background: #739db1;
 	color: #0d0e0e;
-	box-shadow: 0 0 10px #4af6af, 0 0 10px #49c6e6, 0 0 10px #1289a7;
-	transition: 1s;
+	box-shadow: 0 0 10px #0d3a27, 0 0 10px #255a67, 0 0 10px #117790, 0 0 10px #45c2e1;
+	transition: 0.5s;
 }
 span {
 	background: transparent;

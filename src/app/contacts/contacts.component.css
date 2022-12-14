@@ -43,7 +43,7 @@ nav ul li a{
   text-decoration: none;
   position: relative;
   cursor: pointer;
-  
+  font-size: 120%;
 }
 nav ul li a::after{
   content: '';
@@ -69,22 +69,22 @@ button{
 	padding: 15px 0;
 	text-align: center;
 	margin: 20px 10px;
-	border-radius: 0px;
+	border-radius: 10px;
 	font-weight: 900;
 	background: transparent;
 	color: #0d0e0e;
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
-	border: 2px solid rgb(111, 235, 235); 
+	border: 2px solid #000;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 button:hover{
-	background: rgb(111, 235, 235);
+	background: #739db1;
 	color: #0d0e0e;
-	box-shadow: 0 0 10px #4af6af, 0 0 10px #49c6e6, 0 0 10px #1289a7;
-	transition: 1s;
+	box-shadow: 0 0 10px #0d3a27, 0 0 10px #255a67, 0 0 10px #117790, 0 0 10px #45c2e1;
+	transition: 0.5s;
 }
 span {
 	background: transparent;
@@ -108,10 +108,11 @@ button:hover span{
 .content h1{
   font-family: 'Boogaloo', cursive;
 	font-size: 90px;
-  color: #27a4c4;
+  color: #1e7e96;
 	font-weight: 800;
 	line-height: 80px;
 	margin-bottom: 25px;
+  margin-bottom: 20px;
   text-align: center;
 
 }
@@ -123,14 +124,10 @@ button:hover span{
 	line-height: 50px;
 	margin-bottom: 5px;
   letter-spacing: 3.5px;
-  text-align: left;
+  text-align: center;
+  
 }
-.content p{
-	font-size: 20px;
-	color: #0d0e0e;
-	font-weight: 20;
-  text-align: left;
-}
+
 .contact-us{
     width: 500px;
     background:  #F0FFFF;
@@ -139,8 +136,8 @@ button:hover span{
     border-radius: 30px;
     position: absolute;
     top: 10%;
-    bottom: 8px;
-    right: 14em;
+    bottom: 50px;
+    right: 4em;
   }
   
   .title h1{
@@ -199,41 +196,7 @@ button:hover span{
     color: #000000;
   }
   
-  .social-icons{
-    position: absolute;
-    bottom: -25px;
-    left: 50%;
-    width: 200px;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: space-around;
-  }
+
   
-  .social-icons div{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  
-  .social-icons div .fab{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-  }
-  
-  .social-icons div.facebook{
-    background: linear-gradient(to right,#6495ED,#9FE2BF);
-  }
-  
-  .social-icons div.twitter{
-    background: linear-gradient(to right,#6495ED,#9FE2BF);
-  }
-  
-  .social-icons div.google{
-    background: linear-gradient(to right,#6495ED,#9FE2BF);
-  }
+
+
