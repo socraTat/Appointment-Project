@@ -192,19 +192,6 @@ button:hover span{
 	  transform: rotateY(180deg);
 	 
 	}
-  
-	button1 {
-	  border: none;
-	  outline: 0;
-	  display: inline-block;
-	  padding: 8px;
-	  color: white;
-	  background-color: rgb(29, 212, 233);
-	  text-align: center;
-	  cursor: pointer;
-	  width: 100%;
-	  font-size: 18px;
-	}
 	
 	a {
 	  text-decoration: none;
@@ -214,6 +201,4 @@ button:hover span{
 	  
 	}
   
-	button:hover, a:hover {
-	  opacity: 0.7;
-	}
+	
