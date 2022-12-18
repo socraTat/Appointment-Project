@@ -20,6 +20,7 @@ import { HotToastModule } from '@ngneat/hot-toast';
 import { GetAppointmentComponent } from './get-appointment/get-appointment.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MyAppointmentComponent } from './my-appointment/my-appointment.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MyAppointmentComponent } from './my-appointment/my-appointment.componen
     GetAppointmentComponent,
     UserProfileComponent,
     MyAppointmentComponent,
+    LogoutComponent,
 
   ],
   imports: [
